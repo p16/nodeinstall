@@ -34,6 +34,17 @@ The first parameter has to be the node version you want to use.
 
 The second has to be the file that your console reads your modification to the PATH env variable
 
+## Update
+
+To update nodejs you can run the same command, just remember to specify the new version as the first parameter.
+
+```
+cd /repo/path/
+
+./nodeinstall.sh 5.0.0
+```
+
+
 ## Requirements
 
 * You need to have the following packages (or xcode on mac osx) installed to compile the source:
