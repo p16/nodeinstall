@@ -1,4 +1,4 @@
-# Install node without root privilegies
+# Installing node without root privilegies
 
 This script have been implemente followin the step in this article ["NODE.JS HOWTO: INSTALL NODE+NPM AS USER (NOT ROOT) UNDER UNIX OSES"](http://tnovelli.net/blog/blog.2011-08-27.node-npm-user-install.html). Kudos to Tom Novelli!
 
@@ -23,8 +23,16 @@ git clone https://github.com/p16/nodeinstall.git
 run
 
 ```
-cd /repo/path/ && ./nodeinstall.sh
+cd /repo/path/
+
+./nodeinstall.sh [4.2.1] ['/.bashrc']
 ```
+
+**The two parameters are not mandatory. The default values are the ones written above**
+
+The first parameter has to be the node version you want to use.
+
+The second has to be the file that your console reads your modification to the PATH env variable
 
 ## Requirements
 
@@ -39,11 +47,4 @@ cd /repo/path/ && ./nodeinstall.sh
  * libstdc++
  * tar
  * wget (**on mac osx you will need to install it with `brew install wget`**)
-
-
-## NOTES
-
-* To specify which version of node you want to use, you need to change the `NODEVERSION` variable in the script [here](https://github.com/p16/nodeinstall/blob/master/nodeinstall.sh#L3)
-
-* This script assumes you are using bash in your terminal
 

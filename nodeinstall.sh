@@ -1,9 +1,21 @@
 #!/bin/bash
 
-NODEVERSION="4.2.1"
 NPMRC="/.npmrc"
-BASHRC="/.bashrc"
 LOCAL="/.local"
+
+if [ $1 ]
+then
+    NODEVERSION=$1
+else
+    NODEVERSION="4.2.1"
+fi
+
+if [ $2 ]
+then
+    BASHRC=$2
+else
+    BASHRC="/.bashrc"
+fi
 
 if [ ! -e "$HOME$LOCAL" ]
 then
