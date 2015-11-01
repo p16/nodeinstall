@@ -1,6 +1,6 @@
 # Installing node without root privilegies
 
-This script have been implemente followin the step in this article ["NODE.JS HOWTO: INSTALL NODE+NPM AS USER (NOT ROOT) UNDER UNIX OSES"](http://tnovelli.net/blog/blog.2011-08-27.node-npm-user-install.html). Kudos to Tom Novelli!
+This script have been implemente followin the step in this article ["NODE.JS HOWTO: INSTALL NODE+NPM AS USER (NOT ROOT) UNDER UNIX OSES"](http://tnovelli.net/blog/blog.2011-08-27.node-npm-user-install.html). Kudos to [Tom Novelli](http://tnovelli.net/)!
 
 ## What does it do?
 
