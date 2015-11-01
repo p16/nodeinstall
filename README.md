@@ -59,3 +59,8 @@ cd /repo/path/
  * tar
  * wget (**on mac osx you will need to install it with `brew install wget`**)
 
+
+## Improvements
+
+* Add option to custom path for where to install node+npm
+* Remove dependency on bash
