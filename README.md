@@ -62,5 +62,5 @@ cd /repo/path/
 
 ## Improvements
 
-* Add option to custom path for where to install node+npm
+* Add custom install path option, now it installs node+npm in `~/.local`
 * Remove dependency on bash
