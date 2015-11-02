@@ -64,3 +64,7 @@ cd /repo/path/
 
 * Add custom install path option, now it installs node+npm in `~/.local`
 * Remove dependency on bash
+
+## Notes
+
+If you are looking to something way more powerful and complete than my script you cant check out [NVM](https://github.com/creationix/nvm) ;)
