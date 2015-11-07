@@ -67,4 +67,4 @@ cd /repo/path/
 
 ## Notes
 
-If you are looking to something way more powerful and complete than my script you cant check out [NVM](https://github.com/creationix/nvm) ;)
+If you are looking for something way more powerful and complete than my script you cant check out [NVM](https://github.com/creationix/nvm) ;)
