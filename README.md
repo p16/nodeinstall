@@ -68,3 +68,7 @@ cd /repo/path/
 ## Notes
 
 If you are looking for something way more powerful and complete than my script you can check out [NVM](https://github.com/creationix/nvm) ;)
+
+# License
+
+Licensed under the [MIT license](http://opensource.org/licenses/MIT)
